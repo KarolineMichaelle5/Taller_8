@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api
-            railway up --service=kind-perfection
+            railway up --service=zippy-quietude
             railway up --detach
 
 
